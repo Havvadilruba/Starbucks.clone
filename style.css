@@ -2,8 +2,12 @@
     margin: 0;
     box-sizing: border-box; 
     /* padding: 0; */
-    font-family:'roboto', sans-serif;;
+    font-family:'roboto', sans-serif;
 }
+html body{
+    overflow-x: hidden;
+}
+
 .navbar{
    background:#ffffff;
    height: 95px;
@@ -197,7 +201,8 @@ header{
     cursor: pointer;
 }
 .card{
-    width:440px;
+    width: 100%;
+    max-width:440px;
     height: 200px;
     background-color: #ffffff;
     margin: 50px  0 0 170px;
@@ -258,11 +263,14 @@ header{
     background-color: rgb(237, 235, 233);
     margin-top: 123px;
     padding-top: 35px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .body5-img{
-    width: 1355px;
-    height: 460px;
-    margin: 50px 0 0 165px;
+    width: 100%;
+    max-width: 100%;
+    margin: 50px auto;
+    height: 450px;
     position: relative;
     cursor: pointer;
 }
@@ -406,7 +414,8 @@ header{
     cursor: pointer;
 }
 .footer-bottom{
-    width:1400px;
+    width: 100%;
+    max-width:1400px;
     height: 68px;
     background-color: #0e382c;
     margin-left: 100px;
@@ -415,6 +424,7 @@ header{
     justify-content:space-between;
     align-items: center;
     border-top: 2px solid #a0a0a0;
+    margin: auto;
 }
 .bottom1 a{
 transition: color 0.3s;
