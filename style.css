@@ -48,6 +48,9 @@ html body{
     color: rgb(136, 134, 134);
     box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
 }
+.nav-search:focus-within{
+    border: 0.3px solid black;
+}
 .nav-search i:hover{
     cursor: pointer;
 }
