@@ -1,8 +1,9 @@
 *{
     margin: 0;
     box-sizing: border-box; 
-    /* padding: 0; */
     font-family:'roboto', sans-serif;
+    scrollbar-color: green #e0e0e0;
+    scrollbar-width: thin;
 }
 html body{
     overflow-x: hidden;
